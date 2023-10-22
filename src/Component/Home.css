@@ -1,0 +1,134 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100vh;
+    box-sizing: border-box;
+}
+
+.mainParent{
+
+    display:flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-evenly;
+    gap:10px;
+    position: relative;
+    top:24vh;
+   
+}
+
+
+.imgLeftdiv{
+    width:54vw;
+    height:70vh;
+    border-radius: 2% ;
+    box-shadow: 4px 4px 20px gray;
+
+}
+
+
+.imgRightdiv1{
+
+    width:27vw;
+    height:34vh;  
+    border-radius: 2% ;
+    box-shadow: 4px 4px 20px gray;
+
+}
+
+.imgRightdiv2{
+    width:27vw;
+    height:34vh;
+    border-radius: 2% ;
+    margin-top: 2vh;
+    box-shadow: 4px 4px 20px gray;
+}
+
+/* Latest part in home page*/
+
+.textLatest{
+    position:relative;
+    top: 35vh;
+    left:6vw;
+    border-bottom:3px solid rgb(177, 167, 167);
+    font-size: 28px;
+}
+.BelowtextLatest{
+    position:relative;
+    top: 35vh;
+    left:6vw;
+    border-bottom:3px solid rgb(177, 167, 167);
+    font-size: 28px;
+}
+
+
+
+.parentLatest{
+    width:88vw;
+    min-height: 80vh;
+    /* border:2px solid red; */
+    position: relative;
+    top:40vh;
+    left: 6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.Coloumnwise{
+    width:28vw;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border:2px solid green; */
+    
+    
+}
+.imgDivlatest{
+    
+    width:28vw;
+    height:40vh;
+    /* border:2px solid black; */
+    border-radius: 1% ; 
+    
+}
+.imglatestheading{
+    
+    width:28vw;
+    min-height:6vh;
+    /* border:2px solid red; */
+    padding-top:3vh ;
+}
+.imglatestdescription{
+   
+    width:28vw;
+    min-height:6vh;
+    /* border:2px solid black; */
+    padding: 3vh 0vw;
+    font-size:18px;
+}
+
+
+
+/* Top Stories of Home page*/
+
+
+.AdvertismentHome img{
+    width:25vw;
+    height:130vh;
+    /* border:2px solid black;  */
+    position:relative;
+    top:10vh;
+    left:5vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+

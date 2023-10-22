@@ -1,0 +1,335 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* border:3px solid yellowgreen; */
+    
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width:100vw;
+    height: 14vh;
+    box-shadow: 4px 4px 20px  gray;     
+}
+.titleparent{
+    /* width:20vw; */
+    /* border:2px solid purple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.The_title{
+    font-size: 30px;
+    writing-mode: vertical-lr;
+    text-orientation:sideways;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border:2px solid yellow; */
+   
+}
+.siren{
+    font-size: 40px;
+    color:lightcoral;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+.fa-solid{
+    display:none;
+}
+.navbar-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  font-size: 34px;
+  height: 14vh;
+  width:60vw;
+}
+.navlink{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    color:rgb(139, 134, 134);
+    flex-direction: row;
+    /* border:3px solid rgb(255, 0, 230); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:auto;
+    height: 13vh;
+    /* box-shadow: 4px 4px 20px  gray; */
+}
+.navlinkres{
+    display:none;
+}
+
+.listres{
+    display:none;
+}
+/* navbar style start */
+
+.main-nav{
+    width: 100vw;
+    height: 0rem;
+    display: flex;
+    position: absolute;
+    top:1vh;
+  
+    
+}
+
+.navbar-listResponsive {
+    display: none;
+  }
+  
+  /* Style for the mobile menu icon */
+  .display {
+    cursor: pointer;
+  }
+  
+
+@media screen and (min-width:300px) and (max-width:667px){
+    .navbar-list {
+        display: none;
+      }
+      .navbar-listResponsive {
+        display: block;
+      }
+      .display {
+        display: block;
+      }
+      /* Style for the mobile menu icon when active */
+      .hambergerlinksShows {
+        display: block;
+      }
+      .hambergerlinksHide {
+        display: none;
+      }
+    section{
+        /* border:3px solid green; */
+        width:100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .titleparent{
+        width:28vw;
+        height: 13vh;
+        /* border:2px solid purple; */
+    }
+    .The_title{
+        font-size: 24px;
+        /* writing-mode: vertical-lr;
+        text-orientation:sideways; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* border:2px solid yellow; */
+       
+    }
+    .siren{
+        font-size: 24px;
+        color:lightcoral;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width:18vw;
+        /* border: 3px solid red; */
+        
+    }
+    .navbar-list{
+        display: none;
+    }
+    .navlink{
+        display:none; 
+    }
+    
+    .fa-solid {
+        font-size: 35px;
+        display:block;  
+        width: 10vw;
+        height: 13vh;
+        /* border:3px solid blue; */
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        
+        
+    }
+    .fa-bars{
+      cursor:pointer;
+    }
+    .navbar-listResponsive{
+        width:50vw;
+        height: auto;
+        cursor:pointer;
+        
+        /* border:4px solid navy; */
+        position: absolute;
+        top:13vh;
+        left:38vw;
+    }
+
+    .listres {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border:4px solid blanchedalmond;
+        list-style: none;
+        font-size: 20px;
+        height: auto;
+        line-height: 3vh;
+        text-decoration: none;
+    }
+    .hambergerlinksShows{
+        opacity: 0.5;
+        text-align: center;
+        cursor: pointer;
+    }
+    .hambergerlinksHide{
+        display: none;
+    }
+   
+    /* navbar style start */
+    
+    .main-nav{
+        width: 100vw;
+        height: 0rem;
+        display: flex;
+        position: absolute;
+        top:1vh;
+        
+    }
+    .navlinkRes{
+      color:black;
+      background-color:rgb(255, 255, 255);
+      
+      text-decoration: none;
+      font-size: 22px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  
+}
+
+@media screen and (min-width:668px) and (max-width:1180px)
+{
+  
+.navlink{
+  display:none; 
+  }
+  .navbar-list {
+    display: none;
+  }
+  .navbar-listResponsive {
+    display: block;
+  }
+  .display {
+    display: block;
+  }
+  /* Style for the mobile menu icon when active */
+  .hambergerlinksShows {
+    display: block;
+  }
+  .hambergerlinksHide {
+    display: none;
+  }
+section{
+    /* border:3px solid green; */
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.titleparent{
+    width:30vw;
+    height: 13vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border:2px solid purple; */
+}
+.The_title{
+    font-size: 34px;
+    /* writing-mode: vertical-lr;
+    text-orientation:sideways; */
+    /* border:2px solid yellow; */
+   
+}
+.siren{
+    font-size: 34px;
+    color:lightcoral;
+    width:18vw;
+    /* border: 3px solid red; */
+    
+}
+
+
+.fa-solid {
+    font-size: 35px;
+    /* display:block;   */
+    width: 15vw;
+    height: 13vh;
+    
+    display: flex;
+    align-items: center;
+    
+    
+}
+.navbar-listResponsive{
+    width:50vw;
+    height: auto;
+    box-shadow: 4px 4px 20px gray;
+    border-radius: 3%;
+    position: absolute;
+    top:13.4vh;
+    left:30vw;
+}
+
+.listres {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border:4px solid rgb(232, 214, 236);
+    list-style: none;
+    opacity: 0.5;
+    height: auto;
+    line-height: 4vh;
+    text-decoration: none;
+    background-color: rgb(189, 96, 117);
+}
+.hambergerlinksShows{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hambergerlinksHide{
+   
+    color:rgb(39, 34, 34);
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* navbar style start */
+
+.main-nav{
+    width: 100vw;
+    height: 0rem;
+    display: flex;
+    position: absolute;
+    top:1vh;
+    
+}
+.navlinkRes{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 34px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+}
+  
