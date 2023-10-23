@@ -1,4 +1,4 @@
-import  { useEffect,useState,useContext } from 'react'
+import  { useContext } from 'react'
 import { Store } from '../Store/StoreContextApi'
 import "./Bollywood.css"
 import "./Bollywoodmedia.css"
