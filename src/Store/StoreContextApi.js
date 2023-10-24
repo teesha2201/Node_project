@@ -678,11 +678,11 @@ const StoreContextApi=(props)=>
 
         useEffect(()=>{
             async function fetchData(){
-                const fetchData = await fetch("http://localhost:9000/api/main/blog");
+                const fetchData = await fetch("https://node-routing-blog.onrender.com/api/main/blog");
                 const res = await fetchData.json();
-                
+                console.log(res);
                 setData(res);
-            }fetchData()
+            }fetchData();
         },[])    
 
     return(
