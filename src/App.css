@@ -166,7 +166,7 @@ section{
         height: auto;
         cursor:pointer;
         
-        /* border:4px solid navy; */
+        border:4px solid navy;
         position: absolute;
         top:13vh;
         left:38vw;
@@ -184,7 +184,7 @@ section{
         text-decoration: none;
     }
     .hambergerlinksShows{
-        opacity: 0.5;
+/*         opacity: 0.5; */
         text-align: center;
         cursor: pointer;
     }
@@ -292,11 +292,11 @@ section{
     flex-direction: column;
     border:4px solid rgb(232, 214, 236);
     list-style: none;
-    opacity: 0.5;
+/*     opacity: 0.5; */
     height: auto;
     line-height: 4vh;
     text-decoration: none;
-    background-color: rgb(189, 96, 117);
+    background-color:#da9fad;
 }
 .hambergerlinksShows{
     color:black;
